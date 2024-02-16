@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "bcef3433-1738-42a4-8ac9-861c15b9d516",
+		"name": "Pfandnetzwerk",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://aes-gate-ecofrog.azurewebsites.net/Api/FuncDevice",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"DeviceRequest\": \n{\n\"Username\": \"22593\",\n\"Email\": \"co@flexconsult.de\",\n\"SecurityStamp\": \"9b9f3811-45ba-4d0e-b4e7-8dd70db09c25\",\n\"DeviceID\": \"0860536048879508\"\n}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://aes-gate-ecofrog.azurewebsites.net/Api/FuncDevice",
+					"protocol": "http",
+					"host": [
+						"aes-gate-ecofrog",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"Api",
+						"FuncDevice"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
